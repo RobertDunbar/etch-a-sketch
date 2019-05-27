@@ -1,2 +1,43 @@
 /* Odin Project etch-a-sketch css style sheet */
 
+p {
+    border: 2px solid blue;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 300px;
+    margin: 0 auto 30px auto;
+}
+
+body {
+    font-size: 0;
+    height: 100%;
+    width: 550px;
+    margin: 100px auto;
+}
+
+.divGrid {
+    display: inline-block;
+    border: 1px solid grey;
+    width: 30px;
+    height: 30px;
+}
+
+.r0 {
+    border-top: 4px solid rgb(92, 133, 92); 
+}
+
+.r15 {
+    border-bottom: 4px solid rgb(92, 133, 92); 
+}
+
+.c0 {
+    border-left: 4px solid rgb(92, 133, 92); 
+}
+
+.c15 {
+    border-right: 4px solid rgb(92, 133, 92); 
+}
