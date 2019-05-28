@@ -1,43 +1,99 @@
 /* Odin Project etch-a-sketch css style sheet */
 
-p {
-    border: 2px solid blue;
+header{
+    margin: 50px 10px 50px 10px;
+    text-align: center;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal; 
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    width: 300px;
-    margin: 0 auto 30px auto;
+    display: inline-block;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 10px 100px;
+    background-color: #44643a;
+    color: rgb(214, 235, 215);
+    text-align: center;
+    border: 2px solid #225a14;
+    cursor: pointer;
+    border-radius: 4px;
+    line-height: 27px;
+    margin: 0 50px 0 50px;
 }
 
-body {
-    font-size: 0;
-    height: 100%;
-    width: 550px;
-    margin: 100px auto;
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border-radius: 4px;
+    line-height: 27px;
+    vertical-align: top;
+}
+
+button:hover {
+    background-color: #aaa5a5;
+}
+
+
+.sel-group {
+    display: inline-block;
+    text-align: left;
 }
 
 .divGrid {
     display: inline-block;
     border: 1px solid grey;
-    width: 30px;
-    height: 30px;
 }
 
-.r0 {
+.divGrid:hover {
+    background-color: black;
+}
+
+.border-left {
     border-top: 4px solid rgb(92, 133, 92); 
 }
 
-.r15 {
+.border-right {
     border-bottom: 4px solid rgb(92, 133, 92); 
 }
 
-.c0 {
+.border-top {
     border-left: 4px solid rgb(92, 133, 92); 
 }
 
-.c15 {
+.border-bottom {
     border-right: 4px solid rgb(92, 133, 92); 
+}
+
+#container {
+    font-size: 0;
+    height: 100%;
+    width: 560px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px 1px rgba(58, 71, 60, 0.5);
+}
+
+#r1, #r2 {
+    margin: 5px;
 }
