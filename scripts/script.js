@@ -53,7 +53,7 @@ function clearGrid(){
 
 function listenGrid(){
     const sqaure = Array.from(document.querySelectorAll(".divGrid"));
-    sqaure.forEach(grid => grid.addEventListener('mouseover', trailClass));
+    sqaure.forEach(grid => grid.addEventListener("mouseover", trailClass));
 }
 
 var ColorOption = "black";
@@ -62,7 +62,7 @@ listenGrid();
 
 const radios = Array.from(document.querySelectorAll("input[type=radio]"));
 radios.forEach(radio => {
-    radio.addEventListener('change', () => {
+    radio.addEventListener("change", () => {
         ColorOption = radio.value;
     });
 });
