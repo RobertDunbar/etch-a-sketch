@@ -31,15 +31,15 @@ function generateGrid(rows, columns){
 }
 
 function trailClass(e){
-    var thisColor = ColorOption === "black"? "black": randomColor();
+    let thisColor = ColorOption === "black"? "black": randomColor();
     e.target.style.backgroundColor = thisColor;
 }
 
 function randomColor(currentColor) {
-    var randomRed = Math.floor(Math.random() * 255);
-    var randomGreen = Math.floor(Math.random() * 255);
-    var randomBlue = Math.floor(Math.random() * 255);
-    var randomColor = "rgb(" + randomRed + "," + randomGreen + "," + randomBlue + ")";
+    let randomRed = Math.floor(Math.random() * 255);
+    let randomGreen = Math.floor(Math.random() * 255);
+    let randomBlue = Math.floor(Math.random() * 255);
+    let randomColor = "rgb(" + randomRed + "," + randomGreen + "," + randomBlue + ")";
     return randomColor;
 }
 
